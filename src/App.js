@@ -7,6 +7,7 @@ import GenresComponent from './components/GenresComponent';
 import CarouselComponent1 from './components/CarouselComponent1';
 import Title1 from './components/Title1';
 import MultiCarouselComponent from './components/MultiCarouselComponent';
+
 import Title2 from './components/Title2';
 import MultiCarouselComponent2 from './components/MultiCarouselComponent2';
 import Title3 from './components/Title3';

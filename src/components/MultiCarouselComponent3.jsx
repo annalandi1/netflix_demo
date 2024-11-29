@@ -78,7 +78,7 @@ function MultiCarouselComponent3() {
                     variant="top"
                     src={slide.Poster}
                     alt={slide.Title}
-                    style={{ height: '300px', objectFit: 'cover'}}
+                    style={{ height: '350px', objectFit: 'cover'}}
                   />
                   <Card.Body
                     style={{height:"100px", backgroundColor:"#1a1a19"}}>

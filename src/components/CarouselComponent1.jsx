@@ -19,7 +19,7 @@ function CarouselComponent1() {
         setLoading(true);
         setError(null);
   
-        // Fetch a list of horror movies (replace with your actual URL if needed)
+        // Fetch a list of movies (replace with your actual URL if needed)
         const response = await fetch(
           `${apiBaseUrl}?apikey=${apiKey}&s=${searchQuery}&page=1`
         );
