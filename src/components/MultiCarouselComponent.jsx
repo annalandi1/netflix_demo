@@ -66,7 +66,7 @@ function MultiCarouselComponent() {
       onSelect={handleSlide}
       indicators={false}
       controls={true}
-      interval={null} // Disabilita l'auto-scorrimento
+      interval={null} 
     >
       {slides.map((_, slideIndex) => (
         <Carousel.Item key={slideIndex}>
