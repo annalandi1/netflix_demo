@@ -4,7 +4,7 @@ import { Carousel, Row, Col, Card } from 'react-bootstrap';
 
 function MultiCarouselComponent2() {
   const [slides, setSlides] = useState([]);
-  const [currentIndex, setCurrentIndex] = useState(0); // Stato per il primo elemento visibile
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 

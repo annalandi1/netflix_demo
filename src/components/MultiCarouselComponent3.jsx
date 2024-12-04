@@ -4,7 +4,7 @@ import { Carousel, Row, Col, Card } from 'react-bootstrap';
 
 function MultiCarouselComponent3() {
   const [slides, setSlides] = useState([]);
-  const [currentIndex, setCurrentIndex] = useState(0); // Stato per il primo elemento visibile
+  const [currentIndex, setCurrentIndex] = useState(0); 
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -66,7 +66,7 @@ function MultiCarouselComponent3() {
       onSelect={handleSlide}
       indicators={false}
       controls={true}
-      interval={null} // Disabilita l'auto-scorrimento
+      interval={null}
     >
       {slides.map((_, slideIndex) => (
         <Carousel.Item key={slideIndex}>
